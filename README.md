@@ -7,3 +7,4 @@ Para usar o Open Rok, siga estas etapas simples:
 1. Selecione uma Região de Interesse.
 2. Pressione a tecla ESPAÇO ou ENTER para confirmar a seleção.
 3. Se desejar cancelar a seleção, pressione a tecla c e feche a janela.
+4. Pesquise livremente. 😊
