@@ -9,7 +9,6 @@ O OpenRok é um projeto em Python que permite capturar a tela, analisar o texto 
 - Captura de tela com seleção de área personalizada.
 - Reconhecimento óptico de caracteres (OCR) para extrair texto das imagens.
 - Comparação de texto com um banco de dados para encontrar correspondências.
-- 
 ## Objetivo
 
 O OpenRok foi desenvolvido com o objetivo de fornecer assistência para o Quiz Rok, ajudando os jogadores a encontrar respostas rapidamente através do reconhecimento de texto em imagens.
