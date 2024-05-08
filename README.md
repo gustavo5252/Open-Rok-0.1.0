@@ -1,7 +1,6 @@
-## OpenRok
 ---
 
-# OpenRok - Captura de Tela e Reconhecimento de Texto
+# OpenRok
 
 O OpenRok é um projeto em Python que permite capturar a tela, analisar o texto em imagens e fornecer respostas com base em um banco de dados ou utilizando uma API de IA (Inteligência Artificial).
 
