@@ -4,4 +4,3 @@ opencv-python
 numpy
 fuzzywuzzy
 pytesseract
-google-generativeai
