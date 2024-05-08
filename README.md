@@ -2,15 +2,14 @@
 
 # OpenRok
 
-O OpenRok é um projeto em Python que permite capturar a tela, analisar o texto em imagens e fornecer respostas com base em um banco de dados ou utilizando uma API de IA (Inteligência Artificial).
+O OpenRok é um projeto em Python que permite capturar a tela, analisar o texto em imagens e fornecer respostas com base em um banco de dados.
 
 ## Funcionalidades
 
 - Captura de tela com seleção de área personalizada.
 - Reconhecimento óptico de caracteres (OCR) para extrair texto das imagens.
 - Comparação de texto com um banco de dados para encontrar correspondências.
-- Geração de respostas utilizando uma API de IA, quando não há correspondências diretas. # Funcionalidade Inativa
-
+- 
 ## Objetivo
 
 O OpenRok foi desenvolvido com o objetivo de fornecer assistência para o Quiz Rok, ajudando os jogadores a encontrar respostas rapidamente através do reconhecimento de texto em imagens.
@@ -48,3 +47,5 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 
 - Sinta-se à vontade para abrir issues relatando problemas ou sugestões de melhorias.
 - Pull requests são bem-vindos para adicionar novos recursos, resolver problemas ou atualizar o banco de dados.
+
+---
