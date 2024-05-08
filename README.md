@@ -20,7 +20,7 @@ O OpenRok foi desenvolvido com o objetivo de fornecer assistência para o Quiz R
 1. Clone o repositório para a sua máquina local:
 
 ```bash
-git clone 
+git clone https://github.com/gustavo5252/Open-Rok-0.1.0.git
 ```
 
 2. Instale as dependências necessárias usando o pip:
