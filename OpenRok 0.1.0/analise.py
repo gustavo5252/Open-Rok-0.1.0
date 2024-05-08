@@ -2,7 +2,6 @@ import cv2
 import pytesseract
 from fuzzywuzzy import fuzz
 import csv
-import google.generativeai as genai
 
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
@@ -47,13 +46,7 @@ def analisar_ocr(imagem_path, banco):
         if results:
             question, answers, similarity = results[0]
             return question, answers
-        else: # Não compensa usar uma IA, alem da API ser cara ela na maior vez responde errado
-            genai.configure(api_key="AIzaSyDpYnJVqFg6ikjivvZenCEy8k0-4Mvl0EQ")
-            model = genai.GenerativeModel("gemini-pro")
-
-            prompt = f"Seja Bastante sucinto ao responder e informe apenas o seu nome: {text_cleaned}"
-
-            response = model.generate_content(prompt)
-            return text_cleaned, response.text
+        else:
+            return text_cleaned, "Resposta não encontrada."
     else:
-        return "Nenhum texto detectado.", ""  
+        return "Nenhum texto detectado.", ""
